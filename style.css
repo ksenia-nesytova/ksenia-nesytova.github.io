@@ -6,7 +6,6 @@
 
 body {
   font-family:'Roboto';
-  background-color: whitesmoke;
   font-size: 18px;
 }
 
@@ -17,16 +16,32 @@ main {
   width: 80%;
   margin: 0 auto;
   text-align: left;
+  padding: 0 0 3em;
 }
 
+h1, h3 {
+  text-align: center;
+}
 
 h1 {
   margin: 0.5em;
   font-weight: bolder;
+  color: #5fba7d;
+}
+
+h3 {
+  margin: 0.3em;
+  background: #5fba7d;
+  padding: .5em 2em;
 }
 
 ul {
-  list-style: circle;
+  list-style: none;
+  padding: 0 2em;
+}
+
+li {
+  margin: .8em 0;
 }
 
 a:focus, a:hover {
