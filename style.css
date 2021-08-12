@@ -47,3 +47,7 @@ li {
 a:focus, a:hover {
   color: red;
 }
+
+#contacts {
+  background: #BA5F9C;
+}
